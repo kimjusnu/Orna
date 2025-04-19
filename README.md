@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 오르나 (Orna)
 
-## Getting Started
+누가 오르면, 주가도 오르나?  
+테마주 타이밍, 오르나에서 먼저 확인하세요.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 프로젝트 개요
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**오르나**는 정치 테마주를 실시간으로 추적할 수 있는 웹앱입니다.  
+정당별 후보, 관련 종목, 실시간 시세까지 하나의 흐름 안에서 보여주고,  
+검색이나 커뮤니티를 뒤지지 않아도 정치 이슈에 따라 움직이는 주식 흐름을 한눈에 파악할 수 있게 도와줍니다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 기획 배경 및 목적
 
-## Learn More
+선거철마다 등장하는 단골 테마주.  
+“이 사람이 뜬다더라”는 말 하나에 주가가 요동치는 경우, 우리 모두 한 번쯤은 봤을 겁니다.
 
-To learn more about Next.js, take a look at the following resources:
+그런데 정작 그런 테마주 정보를 찾아보려면  
+블로그, 종토방, 뉴스 기사들을 전전해야 하죠.  
+**정치는 뉴스로, 주식은 HTS로 따로따로 봐야 하는 구조가 너무 불편**하다고 느꼈습니다.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**오르나**는 정치인 → 테마주 → 실시간 주가 흐름이라는 연결 고리를  
+깔끔하고 빠르게 보여주는 정보형 웹앱입니다.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 주요 타깃
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-   정치 테마주에 관심 있는 개인 투자자
+-   정치 뉴스를 소비하면서 관련 종목이 궁금한 일반 사용자
+-   유튜버, 트위터 등에서 콘텐츠 소재로 테마주를 다루는 창작자
+-   하루 한 번은 “오늘 뭐 오르나?” 확인하는 사람
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 기대 효과
+
+-   하나하나 검색하지 않아도, 정치 이슈에 따라 움직이는 종목을 바로 확인할 수 있음
+-   실시간 가격 확인이 가능하므로 타이밍 판단에 도움
+-   뉴스, 종목, 정치인을 연결한 정보 구조로 콘텐츠 가치 확보
+-   검색 유입, 커뮤니티 공유, SNS 확산 등 바이럴 포인트가 명확함
+-   광고 기반 수익화가 가능한 구조 (구글 애드센스 등)
+
+---
+
+> 오르나는 “누가 오르면, 뭐가 오르나?”를  
+> 직접 확인하고 싶은 사람들을 위한 웹앱입니다.
